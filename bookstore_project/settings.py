@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'allauth',
     'allauth.account',
+    'books.apps.BooksConfig',
 ]
 
 SITE_ID = 1
