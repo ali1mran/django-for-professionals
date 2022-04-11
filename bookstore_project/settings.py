@@ -44,7 +44,9 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'books.apps.BooksConfig',
+    'orders.apps.OrdersConfig',
 ]
+
 
 SITE_ID = 1
 AUTH_USER_MODEL = 'users.CustomUser'
